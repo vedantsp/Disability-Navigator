@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.s1.sihvoice.voice">
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize = "22sp"
+    android:text="\t Disabled Friendly Geotagging App"
+    android:layout_below="@+id/imageView2"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="13dp" />
+
+<!-- to increase text size - remaining -->
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:adjustViewBounds="true"
+    android:cropToPadding="true"
+    android:scaleType="fitCenter"
+    app:srcCompat="@drawable/app_logo"
+    android:layout_marginTop="32dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+<ImageView
+    android:id="@+id/imageView3"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    app:srcCompat="@android:drawable/presence_audio_online"
+    android:layout_marginBottom="22dp"
+    android:layout_above="@+id/textView4"
+    android:layout_toLeftOf="@+id/imageView2"
+    android:layout_toStartOf="@+id/imageView2" />
+
+<ImageView
+    android:id="@+id/imageView5"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    app:srcCompat="@drawable/touch"
+    android:layout_alignTop="@+id/imageView3"
+    android:layout_alignLeft="@+id/textView3"
+    android:layout_alignStart="@+id/textView3"
+    android:layout_marginLeft="43dp"
+    android:layout_marginStart="43dp" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Swipe Right for Touch"
+    android:layout_marginBottom="22dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginRight="22dp"
+    android:layout_marginEnd="22dp" />
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Swipe Left for Voice"
+    android:layout_marginLeft="14dp"
+    android:layout_marginStart="14dp"
+    android:layout_alignBaseline="@+id/textView3"
+    android:layout_alignBottom="@+id/textView3"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+
+<!--android:layout_alignBaseline=""-->
+
+</RelativeLayout>
+
