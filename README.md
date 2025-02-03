@@ -1,4 +1,4 @@
-# Geotagging of Disabled-Friendly Locations  
+# GeoTag - An Application for Geotagging of Disabled-Friendly Locations  
 
 ## Overview  
 I created the **Geotagging of Disabled-Friendly Locations** project as an **Android application** to help make the world more accessible for people with disabilities. Whether someone is deaf, mute, blind, or physically handicapped, this app provides a crowdsourced platform to find and share locations that cater to their needs. It’s my way of using technology to bridge the gap in accessibility and empower individuals to navigate their communities with confidence.  
